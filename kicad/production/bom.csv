@@ -1,5 +1,5 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"D1, D10, D11, D2, D3, D4, D5, D6, D7, D8, D9",D_SOD-123,11,SOD-123,
+"D1, D10, D2, D3, D4, D5, D6, D7, D8, D9",D_SOD-123,10,SOD-123,
 "MX1, MX10, MX2, MX3, MX4, MX5, MX6, MX7, MX8, MX9",MX-Solderable-1U,10,MX-NoLED,
 MX11,MX-Solderable-2U,1,MX-NoLED,
 U1,XIAO-RP2040-DIP,1,XIAO-RP2040-SMD,

@@ -972,6 +972,12 @@
 		(uuid "a15445a9-3612-49cc-bc8b-762424c21671")
 	)
 	(junction
+		(at 43.18 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "159a85e0-6426-46d9-bf8d-7b4a7698ea25")
+	)
+	(junction
 		(at 59.69 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -988,12 +994,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "242a1c89-b577-460a-9779-55f3abbb4f84")
-	)
-	(junction
-		(at 38.1 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c6ffba6-7e96-451b-9a11-b276c98d8e6b")
 	)
 	(junction
 		(at 59.69 63.5)
@@ -1038,10 +1038,10 @@
 		(uuid "7eefe0cf-accd-49ba-980b-9776e71d60e9")
 	)
 	(junction
-		(at 72.39 140.97)
+		(at 38.1 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8bdafc2d-2d51-453e-8eea-bb34223612f2")
+		(uuid "950f8e63-101c-4415-81ad-b78ed685ed10")
 	)
 	(junction
 		(at 59.69 120.65)
@@ -1133,26 +1133,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 129.54) (xy 53.34 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "167a7f44-af62-424c-b086-e5229eadbdb4")
-	)
-	(wire
-		(pts
-			(xy 53.34 129.54) (xy 53.34 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18a2052d-a264-497f-8fc8-7f56c4cc4958")
-	)
-	(wire
-		(pts
 			(xy 54.61 71.12) (xy 54.61 90.17)
 		)
 		(stroke
@@ -1163,13 +1143,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 134.62) (xy 72.39 135.89)
+			(xy 33.02 134.62) (xy 43.18 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29dd8b77-7006-4eb3-b431-2062167ad5ca")
+		(uuid "1d25a73a-596e-4b9c-955d-ebdd36999554")
 	)
 	(wire
 		(pts
@@ -1283,23 +1263,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 140.97) (xy 76.2 140.97)
+			(xy 59.69 140.97) (xy 76.2 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6309c19a-fe89-45ab-abe3-4a654cb86873")
-	)
-	(wire
-		(pts
-			(xy 53.34 132.08) (xy 58.42 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64651cdd-505c-430a-b01a-845d6bd25d3b")
 	)
 	(wire
 		(pts
@@ -1373,23 +1343,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 129.54) (xy 67.31 129.54)
+			(xy 27.94 129.54) (xy 38.1 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d1fca8f-f857-4056-ab2a-a526a47af763")
-	)
-	(wire
-		(pts
-			(xy 58.42 132.08) (xy 58.42 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1f289da-1fa7-40c6-8c35-67b256f848b3")
+		(uuid "a19ce82b-4560-4863-b5fe-5777eeecad3f")
 	)
 	(wire
 		(pts
@@ -1510,16 +1470,6 @@
 			(type default)
 		)
 		(uuid "ef60ec09-eecf-4ba0-ac15-e94dcaa463c2")
-	)
-	(wire
-		(pts
-			(xy 59.69 140.97) (xy 72.39 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6d4dca6-5251-4ff1-a975-b16b4d3fadf2")
 	)
 	(global_label "ROW2"
 		(shape input)
@@ -2699,7 +2649,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 69.85 132.08 0)
+		(at 30.48 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2710,7 +2660,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b624a6c-299b-426a-b180-7979ed024ee7")
 		(property "Reference" "MX11"
-			(at 69.85 124.46 0)
+			(at 30.48 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2720,7 +2670,7 @@
 			)
 		)
 		(property "Value" "MX-NoLED"
-			(at 69.85 127 0)
+			(at 30.48 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2730,7 +2680,7 @@
 			)
 		)
 		(property "Footprint" "MX_Solderable:MX-Solderable-2U"
-			(at 69.85 132.08 0)
+			(at 30.48 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,7 +2691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 132.08 0)
+			(at 30.48 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,7 +2702,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 69.85 132.08 0)
+			(at 30.48 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3298,110 +3248,6 @@
 			(project "iris"
 				(path "/202b2ab6-b70d-44cf-8ccd-cd620cd842be"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 72.39 138.43 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a87d1c28-a39d-4114-a723-8967572062eb")
-		(property "Reference" "D11"
-			(at 74.93 137.1599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SOD-123"
-			(at 74.93 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 72.39 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 72.39 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 72.39 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 72.39 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7254dfa-d855-412e-9109-ba25170e9ae2")
-		)
-		(pin "2"
-			(uuid "2e4f0b53-9519-4ba2-92a4-d60f77375b59")
-		)
-		(instances
-			(project "iris"
-				(path "/202b2ab6-b70d-44cf-8ccd-cd620cd842be"
-					(reference "D11")
 					(unit 1)
 				)
 			)
